@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hungry people</title>
+	
+	<link rel="preload" href="css/style.min.css" as="style">
+	<link rel="preload" href="js/main.min.js" as="script">
+
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+	
+	<header id = "home" class="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<div class="header__burger header__burger_out">
+					<span></span>
+				</div>
+				<div class="header__top-header">
+					<div class="header__burger header__burger_in">
+						<span></span>
+					</div>
+					<nav class="header__first-menu header__scroll">
+						<ul class="header__menu-list">
+							<li class = "header__menu-item"><a href="#home">home</a></li>
+							<li class = "header__menu-item"><a href="#about">about</a></li>
+							<li class = "header__menu-item"><a href="#team">team</a></li>
+							<li class = "header__menu-item"><a href="#booking">booking</a></li>
+						</ul>
+					</nav>
+					<div class="header__logo">
+						<p class = "header__logo-img">
+							<img src="images/wheel.png" alt="shit happens">
+						</p>
+					</div>
+					<nav class="header__second-menu header__scroll">
+						<ul class="header__menu-list">
+							<li class = "header__menu-item"><a href="#menu">menu</a></li>
+							<li class = "header__menu-item"><a href="#gallery">galery</a></li>
+							<li class = "header__menu-item"><a href="#event">events</a></li>
+							<li class = "header__menu-item"><a href="#contact">contact</a></li>
+						</ul>
+					</nav>
+				</div>	
+				<div class="header__adaptive-logo">
+					<p class = "header__logo-img">
+						<img src="images/wheel.png" alt="shit happens">
+					</p>
+				</div>
+				<div class="header__center">
+					<aside class = "header__time-aside">
+						Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM	 
+					</aside>
+					<div class="header__main">
+						<span class="header__upper-title"> RESTAURANT</span>
+						<h1 class="header__title">hungry people</h1>
+						<div class="header__buttons">
+							<div class="button header__button">
+								<span class="button__text">book table</span>
+							</div>
+							<div class="break"></div>
+							<div class="button header__button header__button_s">
+								<span class="button__text">explore</span> 
+							</div>
+						</div>
+					</div>
+					<aside class = "header__social-aside">
+						<div class="header__facebook header__social-item">
+							<a href="#"><img src="images/facebook.svg" alt=""></a>
+						</div>
+						<div class="header__twitter header__social-item">
+							<a href="#"><img src="images/twitter.svg" alt=""></a>
+						</div>
+						<div class="header__instagram header__social-item">
+							<a href="#"><img src="images/instagram.svg" alt=""></a>
+						</div>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+		<section id = "about" class="about-us section section__wrapper_w">
+			<div class="container">
+				<div class="section__wrapper about-us__wrapper">
+					<div class="about-us__text section__left">
+						<h3 class = "title about-us__title">about us</h3>
+						<p><span class="section__main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</span></p>
+						<p><span class="section__text">
+						Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</span></p>
+					</div>
+					<div class="about-us__pic section__right">
+						<div class="picture about-us__picture">
+							<img class = "picture__square picture__square_r"src="images/square.png" alt="" class="square">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id = "team" class="our-team section section__wrapper_b">
+			<div class="container">
+				<span class="section__sub-title">our team</span>
+				<div class="section__wrapper ">
+					<div class="our-team__pic section__left">
+						<div class="picture our-team__picture">
+							<img class = "picture__square picture__square_l" src="images/square.png" alt="" class="square">
+						</div>
+					</div>
+					<div class="section__right">
+						<h3 class = "title our-team__title">master chef</h3>
+						<p><span class="section__main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</span></p>
+						<p><span class="section__text">
+						Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</span></p>
+					</div>
+				</div>	
+			</div>
+		</section>
+		<section id = "booking" class="book-a-table section section__wrapper_w">
+			<div class="container">
+				<div class="section__wrapper book-a-table__wrapper">
+					<div class="book-a-table__text section__left">
+						<h3 class = "book-a-table__title title">book-a-table</h3>
+						<form class = "form" action="#">
+							<input class = "form__item" type="text" name = "name" placeholder="Name">
+							<input class = "form__item form__item_l" type="text" name = "email" placeholder="Email">
+							<input class = "form__item" type="text" name = "phone" placeholder="Phone">
+							<select class = "form__item  form__item_l" name="People">
+								<option class = "form__select-placeholder"value="" disabled selected>People</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+							</select>
+							<input class = "form__item" type="text" name = "date" placeholder="Date (mm/dd)">
+							<select class = "form__item  form__item_l" name="Time">
+								<option value="" disabled selected>Time</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+							</select>
+							<button class = "form__button "type = "submit">book now</button>
+						</form>
+					</div>
+					<div class="book-a-table__pic section__right">
+						<div class="picture book-a-table__picture">
+							<img class = "picture__square picture__square_r"src="images/square.png" alt="" class="square">
+						</div>
+					</div>
+				</div>
+			</div>
+			<span class="section__sub-text">Mon - Fri: <strong>8PM - 10PM</strong>, Sat - Sun: <strong>8PM - 3AM</strong>, Phone: <strong>+40 729 131 637/+40 726 458 782</strong></span>
+		</section>
+		
+		<section class="specialties section section__wrapper_b">
+			<span class="section__sub-title">specialties</span>	
+			<div class="slider-specialties">
+				<div class="slider-specialties__item">
+					<div class="container">
+						<div class="section__wrapper ">
+							<div class="specialties__pic section__left">
+								<div class="picture specialties__picture">
+									<img class = "picture__square picture__square_l" src="images/square.png" alt="" class="square">
+								</div>
+							</div>
+							<div class="specialties__left section__right">
+								<h3 class = "title specialties__title">chocolate pancakes</h3>
+								<p><span class="section__main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</span></p>
+								<p><span class="section__text">
+								Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</span></p>
+							</div>
+						</div>	
+					</div>
+				</div>
+				<div class="slider-specialties__item">
+					<div class="container">
+						<div class="section__wrapper ">
+							<div class="specialties__pic section__left">
+								<div class="picture specialties__picture">
+									<img class = "picture__square picture__square_l" src="images/square.png" alt="" class="square">
+								</div>
+							</div>
+							<div class="specialties__left section__right">
+								<h3 class = "title specialties__title">chocolate pancakes</h3>
+								<p><span class="section__main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</span></p>
+								<p><span class="section__text">
+								Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</span></p>
+							</div>
+						</div>	
+					</div>
+				</div>
+				<div class="slider-specialties__item">
+					<div class="container">
+						<div class="section__wrapper ">
+							<div class="specialties__pic section__left">
+								<div class="picture specialties__picture">
+									<img class = "picture__square picture__square_l" src="images/square.png" alt="" class="square">
+								</div>
+							</div>
+							<div class="specialties__left section__right">
+								<h3 class = "title specialties__title">chocolate pancakes</h3>
+								<p><span class="section__main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</span></p>
+								<p><span class="section__text">
+								Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</span></p>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</section> 	
+		<section id = "menu" class="delicious-menu">
+			<div class="container">
+				<h3 class = "title delicious-menu__title">delicious menu</h3>
+				<div class="delicious-menu__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
+				<ul class="delicious-menu__categories">
+					<li class="delicious-menu__category delicious-menu__category_0">soupe</li>
+					<li class="delicious-menu__line"></li>
+					<li class="delicious-menu__category delicious-menu__category_1">pizza</li>
+					<li class="delicious-menu__line"></li>
+					<li class="delicious-menu__category delicious-menu__category_2">pasta</li>
+					<li class="delicious-menu__line"></li>
+					<li class="delicious-menu__category delicious-menu__category_3">desert</li>
+					<li class="delicious-menu__line"></li>
+					<li class="delicious-menu__category delicious-menu__category_4">wine</li>
+					<li class="delicious-menu__line"></li>
+					<li class="delicious-menu__category delicious-menu__category_5">beer</li>
+					<li class="delicious-menu__line"></li>
+					<li class="delicious-menu__category delicious-menu__category_6 
+					delicious-menu__category_none">drinks</li>
+				</ul>
+				<div class="slider-menu menu">
+					<div class="slider-menu__item">
+						<div class="delicious-menu__soupes menu">
+							<div class="menu__items">
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">SOUP QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slider-menu__item">
+						<div class="delicious-menu__pizza menu">
+							<div class="menu__items">
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">PIZZA QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slider-menu__item">
+						<div class="delicious-menu__pasta menu">
+							<div class="menu__items">
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slider-menu__item">
+						<div class="delicious-menu__desert menu">
+							<div class="menu__items">
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DESERT QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slider-menu__item">
+						<div class="delicious-menu__wine menu">
+							<div class="menu__items">
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">WINE QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slider-menu__item">
+						<div class="delicious-menu__beer menu">
+							<div class="menu__items">
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">BEER QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slider-menu__item">
+						<div class="delicious-menu__drinks menu">
+							<div class="menu__items">
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+								<div class="menu__item">
+									<span class = "menu__item-title">DRINK QUATRO STAGIONI</span>
+									<span class = "menu__item-price">55,68</span>	
+									<span class = "menu__item-currency">USD</span>
+									<br>
+									<span class = "menu__item-description">Integer ullamcorper neque eu purus euismod</span>	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id = "event" class="event section section__wrapper_b">
+			<div class="container">
+				<span class="section__sub-title">private events</span>	
+				<div class="section__wrapper ">
+					<div class="event__pic section__left">
+						<div class="picture event__picture event__picture_1">
+							<img class = "picture__square picture__square_l" src="images/square.png" alt="" class="square">
+						</div>
+					</div>
+					<div class="event__pic section__right">
+						<div class="picture event__picture event__picture_2">
+							<img class = "picture__square picture__square_r" src="images/square.png" alt="" class="square">
+						</div>
+					</div>
+				</div>	
+				<span class="section__sub-text event__sub-text">For private events please call: <strong> +40 729 131 637/+40 726 458 782 </strong> or use the contact form.</span>
+			</div>
+		</section>
+		<section id = "gallery" class="gallery">
+			<div class="gallery__wrapper">
+				<a class = "gallery__item" href="images/gallery1.jpg"><img src="images/gallery1.jpg" alt=""></a>
+				<a class = "gallery__item" href="images/gallery2.jpg"><img src="images/gallery2.jpg" alt=""></a>
+				<a class = "gallery__item" href="images/gallery3.jpg"><img src="images/gallery3.jpg" alt=""></a>
+				<a class = "gallery__item" href="images/gallery4.jpg"><img src="images/gallery4.jpg" alt=""></a>
+			</div>
+		</section>
+		<section id = "contact" class="contacts">
+			<div class="container">
+				<h3 class = "title contacts__title">contact</h3>
+				<div class="contacts__sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
+				<form class = "form" action="#">
+					<input class = "form__item form__bottom-item" type="text" name = "name" placeholder="Name">
+					<input class = "form__item form__bottom-item form__item_l" type="text" name = "email" placeholder="Email">
+					<input class = "form__item form__bottom-item form__item_l" type="text" name = "phone" placeholder="Phone">
+					<textarea  class = "form__item form__bottom-item form__message" name = "message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+					<div class="form__bottom-part">
+						<ul class="form__links">
+							<li class="form__link form__location"><a href="">5th London Boulevard, U.K.</a></li>
+							<li class="form__link form__number"><a href="tel:+40729131637">+40 729 131 637/+40 726 458 782</a></li>
+							<li class="form__link form__mail"><a href="office@mindblister.com"> office@mindblister.com</a></li>
+						</ul>  
+						<button class = "form__button form__bottom-button "type = "submit">send message</button>
+					</div>
+				</form>
+			</div>
+		</section>
+		<section class="map">
+			<div class="map-wrapper">
+				<div class="container">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.47340138938!2d-0.24168153443090962!3d51.528558241258565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2z0JvQvtC90LTQvtC9LCDQktC10LvQuNC60L7QsdGA0LjRgtCw0L3QuNGP!5e0!3m2!1sru!2sua!4v1602704566262!5m2!1sru!2sua" width=100% height="475" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>		
+				</div>
+			</div>
+		</section>
+</main>
+
+<footer class="footer">
+	<span>© Copyright <strong>Mindblister</strong> 2019</span>
+</footer>
+
+<script src="js/main.min.js"></script>
+</body>
+</html>
